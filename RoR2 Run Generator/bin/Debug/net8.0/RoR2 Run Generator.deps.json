@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "RoR2 Run Generator/1.0.0": {
+        "runtime": {
+          "RoR2 Run Generator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RoR2 Run Generator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
