@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoR2 Run Generator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a940db9ea62386804c0fedf77b3cb13b7d22b691")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoR2 Run Generator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoR2 Run Generator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
