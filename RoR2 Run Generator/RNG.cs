@@ -9,6 +9,10 @@ public static class RNG
 {
     static RNG()
     {
+        if (!File.Exists(Settings.Path))
+        {
+            File.WriteAllText(Settings.Path, JsonConvert.SerializeObject(new Settings(), Formatting.Indented));
+        }
         var jsonString = File.ReadAllText(Settings.Path);
         ImportSettings(JsonConvert.DeserializeObject<Settings>(jsonString)!);
     }
