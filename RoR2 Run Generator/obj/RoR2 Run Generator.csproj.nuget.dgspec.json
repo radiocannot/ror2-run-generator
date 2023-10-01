@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\RiderProjects\\RoR2 Run Generator\\RoR2 Run Generator\\RoR2 Run Generator.csproj": {}
+    "D:\\Code\\RiderProjects\\ror2-run-generator\\RoR2 Run Generator\\RoR2 Run Generator.csproj": {}
   },
   "projects": {
-    "D:\\Code\\RiderProjects\\RoR2 Run Generator\\RoR2 Run Generator\\RoR2 Run Generator.csproj": {
+    "D:\\Code\\RiderProjects\\ror2-run-generator\\RoR2 Run Generator\\RoR2 Run Generator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\RiderProjects\\RoR2 Run Generator\\RoR2 Run Generator\\RoR2 Run Generator.csproj",
+        "projectUniqueName": "D:\\Code\\RiderProjects\\ror2-run-generator\\RoR2 Run Generator\\RoR2 Run Generator.csproj",
         "projectName": "RoR2 Run Generator",
-        "projectPath": "D:\\Code\\RiderProjects\\RoR2 Run Generator\\RoR2 Run Generator\\RoR2 Run Generator.csproj",
+        "projectPath": "D:\\Code\\RiderProjects\\ror2-run-generator\\RoR2 Run Generator\\RoR2 Run Generator.csproj",
         "packagesPath": "C:\\Users\\tusto\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\RiderProjects\\RoR2 Run Generator\\RoR2 Run Generator\\obj\\",
+        "outputPath": "D:\\Code\\RiderProjects\\ror2-run-generator\\RoR2 Run Generator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "WeightedRandomizer": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -12,3 +12,22 @@ D:\Code\RiderProjects\RoR2 Run Generator\RoR2 Run Generator\obj\Debug\net8.0\ref
 D:\Code\RiderProjects\RoR2 Run Generator\RoR2 Run Generator\obj\Debug\net8.0\RoR2 Run Generator.pdb
 D:\Code\RiderProjects\RoR2 Run Generator\RoR2 Run Generator\obj\Debug\net8.0\RoR2 Run Generator.genruntimeconfig.cache
 D:\Code\RiderProjects\RoR2 Run Generator\RoR2 Run Generator\obj\Debug\net8.0\ref\RoR2 Run Generator.dll
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\bin\Debug\net8.0\RoR2 Run Generator.exe
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\bin\Debug\net8.0\RoR2 Run Generator.deps.json
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\bin\Debug\net8.0\RoR2 Run Generator.runtimeconfig.json
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\bin\Debug\net8.0\RoR2 Run Generator.dll
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\bin\Debug\net8.0\RoR2 Run Generator.pdb
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\obj\Debug\net8.0\RoR2 Run Generator.csproj.AssemblyReference.cache
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\obj\Debug\net8.0\RoR2 Run Generator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\obj\Debug\net8.0\RoR2 Run Generator.AssemblyInfoInputs.cache
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\obj\Debug\net8.0\RoR2 Run Generator.AssemblyInfo.cs
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\obj\Debug\net8.0\RoR2 Run Generator.csproj.CoreCompileInputs.cache
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\obj\Debug\net8.0\RoR2 Run Generator.sourcelink.json
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\obj\Debug\net8.0\RoR2 Run Generator.csproj.CopyComplete
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\obj\Debug\net8.0\RoR2 Run Generator.dll
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\obj\Debug\net8.0\refint\RoR2 Run Generator.dll
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\obj\Debug\net8.0\RoR2 Run Generator.pdb
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\obj\Debug\net8.0\RoR2 Run Generator.genruntimeconfig.cache
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\obj\Debug\net8.0\ref\RoR2 Run Generator.dll
+D:\Code\RiderProjects\ror2-run-generator\RoR2 Run Generator\bin\Debug\net8.0\WeightedRandomizer.dll
