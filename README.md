@@ -4,8 +4,8 @@ This is a Risk of Rain 2 run generator. It can generate you a character to play,
 
 ## Setup
 Download the latest release, install .Net 8 runtime and setup your settings.json:
-  - Set Weight for characters that you have not yet unlocked to 0;
-  - Delete artifacts that you have not yet unlocked;
+  - Set Weight for characters that you have not yet unlocked to 0 in "Characters";
+  - Delete artifacts that you have not yet unlocked from "UnlockedArtifacts";
   - Edit any other values following the desciptions and basic knowledge of JSON.
 > [!NOTE]
-> ChanceRollingArtifactUnlock means ChanceRollingArtifactUnlock_OneIn, meaning the bigger the number is the smaller the chance becomes.
+> "ChanceRollingArtifactUnlock" means "ChanceRollingArtifactUnlock_OneIn", meaning the bigger the number is the smaller the chance becomes.
