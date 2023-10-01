@@ -9,3 +9,6 @@ Download the latest release, install .Net 8 runtime and setup your settings.json
   - Edit any other values following the desciptions and basic knowledge of JSON.
 > [!NOTE]
 > "ChanceRollingArtifactUnlock" means "ChanceRollingArtifactUnlock_OneIn", meaning the bigger the number is the smaller the chance becomes.
+
+## About
+I made this literally in 2 days, don't expect good quality now. I will add some more variables to affect your run (for example force you into Void Fields). I will also make a ui version after i'm satisfied with the core code.
