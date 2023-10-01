@@ -12,3 +12,8 @@ Download the latest release, install .Net 8 runtime and setup your settings.json
 
 ## About
 I made this literally in 2 days, don't expect good quality now. I will add some more variables to affect your run (for example force you into Void Fields). Maybe will add reading savefile and using the data to force doing some unlocks. I will also make a ui version after i'm satisfied with the core code. 
+
+
+
+![image](https://github.com/radiocannot/ror2-run-generator/assets/123190217/0bfc2b03-c49b-4e1a-9604-e41b37df4ec6)\
+~~if this pops up and you died without unlocking just press enter~~
