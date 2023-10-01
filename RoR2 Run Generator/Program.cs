@@ -14,22 +14,25 @@ while (true)
     var destination = RNG.RollDestination()!;
     var loopAmount =
         Random.Shared.Next(destination.LoopAmountMinimum, destination.LoopAmountMaximum);
-    var artifactUnlocks = RNG.RollArtifactUnlocks(destination, loopAmount)!.Select(artifactUnlock => artifactUnlock.ArtifactName + ";").ToArray();
+    var artifactUnlocks = RNG.RollArtifactUnlocks(destination, loopAmount)!
+        .Select(artifactUnlock => artifactUnlock.ArtifactName + ";").ToArray();
 
-    var artifacts = RNG.RollArtifacts()!.Select(artifact => artifact.ArtifactName+";");
+    var artifacts = RNG.RollArtifacts()!.Select(artifact => artifact.ArtifactName + ";");
     Console.WriteLine($"Use character {character.DisplayName}");
     Console.WriteLine($"You need to {destination.Destination}, looping {loopAmount} times(s)");
     Console.WriteLine($"Unlock these artifacts: {string.Join(' ', artifactUnlocks)}");
     Console.WriteLine($"Use these artifacts: {string.Join(' ', artifacts)}");
     if (artifactUnlocks.Length != 0)
     {
-        Console.WriteLine("What artifacts did you unlock? (just paste them in from your \"Unlock these artifacts\" for this run)");
+        Console.WriteLine(
+            "What artifacts did you unlock? (just paste them in from your \"Unlock these artifacts\" for this run)");
         var unlockedArtifacts = Console.ReadLine()!.Split(';');
-        if(string.IsNullOrWhiteSpace(unlockedArtifacts[0])) continue;
+        if (string.IsNullOrWhiteSpace(unlockedArtifacts[0])) continue;
         foreach (var artifact in unlockedArtifacts)
         {
             RNG.Artifacts.Add(RNG.ArtifactUnlocks.First(unlock => artifact.Contains(unlock.ArtifactName)));
         }
+
         File.WriteAllText(Settings.Path, JsonConvert.SerializeObject(RNG.ExportSettings(), Formatting.Indented));
     }
 }
