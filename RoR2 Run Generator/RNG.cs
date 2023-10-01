@@ -190,9 +190,9 @@ public static class RNG
         return destination;
     }
 
-    public static List<ArtifactUnlock>? RollArtifactUnlocks(RunDestination destination, int loopAmount)
+    public static IEnumerable<ArtifactUnlock> RollArtifactUnlocks(RunDestination destination, int loopAmount)
     {
-        if (!_rollArtifactUnlocks) return null;
+        if (!_rollArtifactUnlocks) return Enumerable.Empty<ArtifactUnlock>();
 
         List<ArtifactUnlock>? returnValue = new();
         var artifactUnlocksCopy = new StaticWeightedRandomizer<ArtifactUnlock>();
@@ -207,9 +207,9 @@ public static class RNG
         return returnValue;
     }
 
-    public static List<Artifact>? RollArtifacts()
+    public static IEnumerable<Artifact> RollArtifacts()
     {
-        if (!_rollArtifacts) return null;
+        if (!_rollArtifacts) return Enumerable.Empty<Artifact>();
 
         var singleArtifact = Artifacts.NextWithReplacement();
         var returnArtifacts = new List<Artifact> { singleArtifact };

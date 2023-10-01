@@ -36,7 +36,7 @@ public class Settings
     public bool PreventRollingPreviousDestination = true;
     public bool RollDestinations = true;
 
-    public string ArtifactsDescription = "Don't delete or change \"No Artifacts\"(other than Weight, you can change it), you're free to change everything else";
+    public string ArtifactsDescription = """Don't delete or change "No Artifacts"(other than Weight, you can change it), you're free to change everything else""";
     public Artifact[] UnlockedArtifacts =
     {
         new("No Artifacts"),
